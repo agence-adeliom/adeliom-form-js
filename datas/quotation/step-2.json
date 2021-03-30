@@ -1,0 +1,19 @@
+{
+    "question": "Facultatif : Racontez-nous votre projet",
+    "url": "etape2",
+    "nextStep": "step-3",
+    "optional":  true,
+    "summary" : "Votre projet",
+    "fields": [
+        {
+            "type": "textarea",
+            "name": "message",
+            "gf_id": "2",
+            "required": true,
+            "full": true,
+            "class": "",
+            "label": "Votre projet",
+            "placeholder": "Décrivez votre projet"
+        }
+    ]
+}

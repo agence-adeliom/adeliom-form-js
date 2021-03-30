@@ -1,0 +1,62 @@
+{
+    "question": "Renseignez vos coordonnées",
+    "url": "etape4",
+    "lastStep": true,
+    "fields": [
+        {
+            "type": "text",
+            "name": "lastname",
+            "gf_id": "7",
+            "required": true,
+            "label": "Nom",
+            "placeholder": "Votre nom"
+        },
+        {
+            "type": "text",
+            "name": "firstname",
+            "gf_id": "8",
+            "required": true,
+            "label": "Prénom",
+            "placeholder": "Votre prénom"
+        },
+        {
+            "type": "email",
+            "name": "email",
+            "gf_id": "9",
+            "required": true,
+            "label": "Email",
+            "placeholder": "Votre e-mail"
+        },
+        {
+            "type": "tel",
+            "name": "phone",
+            "gf_id": "12",
+            "required": true,
+            "label": "Téléphone",
+            "placeholder": "Votre téléphone"
+        },
+        {
+            "type": "checkbox",
+            "name": "rgpd",
+            "gf_id": "13",
+            "required": false,
+            "full": true,
+            "label": "Souhaitez-vous recevoir des informations de Le Vérandier par :",
+            "choices": [
+                {
+                    "label": "Email",
+                    "value": "email"
+                },
+                {
+                    "label": "SMS",
+                    "value": "sms"
+                },
+                {
+                    "label": "Courier",
+                    "value": "courier"
+                }
+            ],
+            "description": "En cochant les cases, j’accepte d’être sollicité(e) par Le Vérandier à des fins de prospection commerciale et de recevoir les bons plans Le Vérandier par email et uniquement les meilleures offres par SMS ou courrier postal. Si non, mes données ne seront utilisées que pour l’exécution du contrat ou des mesures précontractuelles."
+        }
+    ]
+}

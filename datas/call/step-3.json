@@ -1,0 +1,53 @@
+{
+    "question": "Quelle est votre localisation&nbsp;?",
+    "url": "etape3",
+    "lastStep": true,
+    "fields": [
+        {
+            "type": "text",
+            "name": "address",
+            "gf_id": "4",
+            "required": true,
+            "class": "",
+            "label": "Adresse",
+            "placeholder": "Votre adresse",
+            "full": true
+        },
+        {
+            "type": "text",
+            "name": "zipcode",
+            "gf_id": "5",
+            "required": true,
+            "class": "",
+            "label": "Code postal",
+            "placeholder": "Votre code postal"
+        },
+        {
+            "type": "select",
+            "name": "city",
+            "gf_id": "6",
+            "required": true,
+            "class": "field-city",
+            "label": "Votre ville",
+            "placeholder": "Votre ville"
+        },
+        {
+            "type": "location"
+        },
+        {
+            "type": "checkbox",
+            "name": "rgpd",
+            "gf_id": "7",
+            "required": false,
+            "full": true,
+            "label": "Souhaitez-vous recevoir des informations de Le Vérandier par :",
+            "choice": [
+                {
+                    "label": "SMS",
+                    "value": "sms"
+                }
+            ],
+            "description": "En cochant les cases, j’accepte d’être sollicité(e) par Le Vérandier à des fins de prospection commerciale et de recevoir les bons plans Le Vérandier par email et uniquement les meilleures offres par SMS ou courrier postal. Si non, mes données ne seront utilisées que pour l’exécution du contrat ou des mesures précontractuelles."
+        }
+    ]
+}

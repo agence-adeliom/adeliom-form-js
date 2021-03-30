@@ -1,0 +1,38 @@
+{
+    "question": "Quelle est votre localisation&nbsp;?",
+    "url": "etape3",
+    "nextStep": "step-4",
+    "fields": [
+        {
+            "type": "text",
+            "name": "address",
+            "gf_id": "3",
+            "required": true,
+            "class": "",
+            "label": "Adresse",
+            "placeholder": "Votre adresse",
+            "full": true
+        },
+        {
+            "type": "text",
+            "name": "zipcode",
+            "gf_id": "4",
+            "required": true,
+            "class": "",
+            "label": "Code postal",
+            "placeholder": "Votre code postal"
+        },
+        {
+            "type": "select",
+            "name": "city",
+            "gf_id": "5",
+            "required": true,
+            "class": "field-city",
+            "label": "Votre ville",
+            "placeholder": "Votre ville"
+        },
+        {
+            "type": "location"
+        }
+    ]
+}

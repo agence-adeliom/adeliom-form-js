@@ -1,0 +1,33 @@
+{
+    "question": "Quelles sont vos disponibilités&nbsp;?",
+    "name": "availabilities",
+    "gf_id": "2",
+    "url": "etape2",
+    "nextStep": "step-3",
+    "answers": [
+        {
+            "label": "Matin",
+            "icon": "icon-am",
+            "background": "rgba(0, 122, 195, 0.2)",
+            "rgb": "0, 122, 195",
+            "color": "#007AC3",
+            "value": "Matin"
+        },
+        {
+            "label": "Après-midi",
+            "icon": "icon-pm",
+            "background": "rgba(22, 163, 104, 0.2)",
+            "rgb": "22, 163, 104",
+            "color": "#16A368",
+            "value": "Après-midi"
+        },
+        {
+            "label": "Toute la journée",
+            "icon": "icon-day",
+            "background": "rgba(162, 143, 128, 0.2)",
+            "rgb": "162, 143, 128",
+            "color": "#A28F80",
+            "value": "Toute la journée"
+        }
+    ]
+}

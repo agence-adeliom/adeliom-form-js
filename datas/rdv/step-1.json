@@ -1,0 +1,17 @@
+{
+    "question": "A quelle date souhaiteriez-vous rencontrer un conseiller&nbsp;?",
+    "intro": "Un conseiller vous contactera pour confirmer la date de votre rendez-vous à domicile.",
+    "nextStep": "step-2",
+    "url": "etape-1",
+    "disabledBtn": true,
+    "fields": [
+        {
+            "type": "text",
+            "name": "date",
+            "class": "datepicker",
+            "gf_id": "1",
+            "required": true,
+            "full": true
+        }
+    ]
+}

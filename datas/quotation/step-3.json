@@ -1,0 +1,36 @@
+{
+    "question": "Où se situe votre projet&nbsp;?",
+    "url": "etape3",
+    "nextStep": "step-4",
+    "summary" : "Localisation du projet",
+    "fields": [
+        {
+            "type": "text",
+            "name": "address",
+            "gf_id": "4",
+            "required": true,
+            "class": "",
+            "label": "Adresse",
+            "placeholder": "Votre adresse",
+            "full": true
+        },
+        {
+            "type": "text",
+            "name": "zipcode",
+            "gf_id": "5",
+            "required": true,
+            "class": "",
+            "label": "Code postal",
+            "placeholder": "Votre code postal"
+        },
+        {
+            "type": "text",
+            "name": "city",
+            "gf_id": "6",
+            "required": true,
+            "class": "",
+            "label": "Votre ville",
+            "placeholder": "Votre ville"
+        }
+    ]
+}

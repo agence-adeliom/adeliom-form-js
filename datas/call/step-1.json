@@ -1,0 +1,23 @@
+{
+    "question": "Renseignez vos coordonnées",
+    "nextStep": "step-2",
+    "url": "etape-1",
+    "fields": [
+        {
+            "type": "text",
+            "name": "lastname",
+            "gf_id": "1",
+            "required": true,
+            "label": "Nom",
+            "placeholder": "Votre nom"
+        },
+        {
+            "type": "tel",
+            "name": "phone",
+            "gf_id": "2",
+            "required": true,
+            "label": "Téléphone",
+            "placeholder": "Votre téléphone"
+        }
+    ]
+}
