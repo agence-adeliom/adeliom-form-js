@@ -53,8 +53,8 @@ Exemple 2 :
             "label": "Votre projet",
             "placeholder": "Décrivez votre projet",
             "conditional": {
-                "key": "situation", => nom du champ d'une étape précédente
-                "value": "Geschäftskunden" => valeur renseignée
+                "key": "product", => nom du champ d'une étape précédente
+                "value": "Véranda" => valeur renseignée
             }, => champ conditionel selon une valeur d'une étape précédente
         }
     ]
