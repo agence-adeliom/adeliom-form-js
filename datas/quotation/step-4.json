@@ -6,7 +6,6 @@
         {
             "type": "text",
             "name": "lastname",
-            "gf_id": "7",
             "required": true,
             "label": "Nom",
             "placeholder": "Votre nom"
@@ -14,7 +13,6 @@
         {
             "type": "text",
             "name": "firstname",
-            "gf_id": "8",
             "required": true,
             "label": "Prénom",
             "placeholder": "Votre prénom"
@@ -22,7 +20,6 @@
         {
             "type": "email",
             "name": "email",
-            "gf_id": "9",
             "required": true,
             "label": "Email",
             "placeholder": "Votre e-mail"
@@ -30,7 +27,6 @@
         {
             "type": "tel",
             "name": "phone",
-            "gf_id": "12",
             "required": true,
             "label": "Téléphone",
             "placeholder": "Votre téléphone"
@@ -38,7 +34,6 @@
         {
             "type": "checkbox",
             "name": "rgpd",
-            "gf_id": "13",
             "required": false,
             "full": true,
             "label": "Souhaitez-vous recevoir des informations de Le Vérandier par :",

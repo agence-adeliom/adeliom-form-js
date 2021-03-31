@@ -1,49 +1,28 @@
 {
     "question": "Quel produit vous intéresse&nbsp;?",
     "name": "product",
-    "gf_id": "1",
     "nextStep": "step-2",
     "url": "etape-1",
     "summary" : "Votre produit",
     "answers": [
         {
             "label": "Véranda",
-            "icon": "icon-veranda",
-            "background": "rgba(0, 122, 195, 0.2)",
-            "rgb": "0, 122, 195",
-            "color": "#007AC3",
             "value": "Véranda"
         },
         {
             "label": "Pergola classique",
-            "icon": "icon-pergola",
-            "background": "rgba(22, 163, 104, 0.2)",
-            "rgb": "22, 163, 104",
-            "color": "#16A368",
             "value": "Pergola classique"
         },
         {
             "label": "Pergola à lames orientables",
-            "icon": "icon-pergolalames",
-            "background": "rgba(22, 163, 104, 0.2)",
-            "rgb": "22, 163, 104",
-            "color": "#16A368",
             "value": "Pergola à lames orientables"
         },
         {
             "label": "Stores",
-            "icon": "icon-stores",
-            "background": "rgba(162, 143, 128, 0.2)",
-            "rgb": "162, 143, 128",
-            "color": "#A28F80",
             "value": "Stores"
         },
         {
             "label": "Je souhaite être conseillé·e",
-            "icon": "icon-conseil",
-            "background": "rgba(97, 107, 117, 0.2)",
-            "rgb": "97, 107, 117",
-            "color": "#616B75",
             "value": "Je souhaite être conseillé·e"
         }
     ]
