@@ -55,7 +55,7 @@
 
     /* CONFIG */
     let defaultNameJson = "step-1";
-    let jsonPath = "./datas/";
+    let jsonPath = "../datas/";
     /* END CONFIG */
 
     import FormAnswers from './_FormAnswers.vue';
